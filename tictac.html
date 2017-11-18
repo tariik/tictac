@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="tictac.css"/>
+	<script src="tictac.js"></script>
+	<title>TIC TAC </title>
+</head>
+<body>	
+	<div class="tictac">
+		<div class="tete">
+			<h1> Le jeu de TIC TAC</h1>
+		</div>
+		<table class="table">
+			<tr>
+				<td> 
+					<input class="button" type="button" id="affiche_11" value="-" onclick="jouer_11()"/>
+				</td>
+				<td >
+					<input class="button" type="button" id="affiche_12" value="-" onclick="jouer_12()"/>
+				</td>
+				<td >
+					<input class="button" type="button" id="affiche_13" value="-" onclick="jouer_13()"/>
+				</td>
+			</tr>
+			<tr>
+				<td> 
+					<input class="button" type="button" id="affiche_21" value="-" onclick="jouer_21()"/>
+				</td>
+				<td >
+					<input class="button" type="button" id="affiche_22" value="-" onclick="jouer_22()"/>
+				</td>
+				<td >
+					<input class="button" type="button" id="affiche_23" value="-" onclick="jouer_23()"/>
+				</td>
+			</tr>
+			<tr>
+				<td> 
+					<input class="button" type="button" id="affiche_31" value="-" onclick="jouer_31()"/>
+				</td>
+				<td >
+					<input class="button" type="button" id="affiche_32" value="-" onclick="jouer_32()"/>
+				</td>
+				<td >
+					<input class="button" type="button" id="affiche_33" value="-" onclick="jouer_33()"/>
+				</td>
+			</tr>
+		</table>
+
+		<div class="tete">
+			Le gangnant est :  <label class="gangnant" id="gangnant"> </label> <br>
+			<button class="button2" type="button" value="" onClick="window.location.reload()">Rejouer</button> <br>
+		</div>
+	</div>
+</body>
+</html>
